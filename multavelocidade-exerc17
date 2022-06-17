@@ -1,0 +1,19 @@
+Var
+   // Seção de Declarações das variáveis
+   velocidade, multa: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("-------------------------")
+   escreval ("DEPARTAMENTO DE TRÂNSITO")
+   escreval ("-------------------------")
+   escreva ("Qual a velocidade do veículo em km/h? ")
+   leia (velocidade)
+   se (velocidade > 80) entao
+      multa <- 5 * (velocidade - 80)
+      escreva ("Você foi multado no valor de R$ ", multa)
+   senao
+      escreva ("Você não foi multado!")
+   fimse
+
+Fimalgoritmo
