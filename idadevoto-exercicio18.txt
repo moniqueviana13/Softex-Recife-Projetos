@@ -1,0 +1,21 @@
+Var
+   // Seção de Declarações das variáveis
+   ano, nascimento, idade: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("-------------------------")
+   escreval ("CARTÓRIO ELEITORAL")
+   escreval ("-------------------------")
+   escreva ("Em que ano estamos? ")
+   leia (ano)
+   escreva ("Qual o ano de seu nascimento? ")
+   leia (nascimento)
+   idade <- ano - nascimento
+   se (idade >= 16) entao
+            escreva ("Você possui ", idade, " anos, e pode votar!")
+   senao
+      escreva ("Você não pode votar!")
+   fimse
+
+Fimalgoritmo
