@@ -1,0 +1,15 @@
+Var
+// Seção de Declarações das variáveis 
+ n: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite um número inteiro: ")
+leia (n)
+se n%2=0 entao
+   escreva ("Trata-se de um número par!")
+senao
+     escreva ("Trata-se de um número ímpar!")
+fimse
+
+Fimalgoritmo
