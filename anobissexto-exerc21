@@ -1,0 +1,20 @@
+Var
+// Seção de Declarações das variáveis 
+ ano: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite um ano com 4 dígitos: ")
+leia (ano)
+se (ano%4=0) e (ano%100<>0) ou (ano%4=0) e (ano%100=0) e (ano%400=0) entao
+   escreva ("Trata-se de um ANO BISSEXTO!")
+senao
+     escreva ("Trata-se de um ano NÃO BISSEXTO!")
+fimse
+
+Fimalgoritmo
+
+
+REGRAS: 
+Caso 1) É um número divisível por 4, mas não é divisível por 100.
+Caso 2) É um número divisível por 4, por 100 e por 400.
